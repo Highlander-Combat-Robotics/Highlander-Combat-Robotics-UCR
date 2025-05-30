@@ -1,4 +1,4 @@
-# This is where all the area stuffs are kept
+# This is where all the arena stuffs are kept
 Right now there are two seperate folder: Lights and Timer
 * **Lights**: where the C++ source code for the Arduino lives
 * **Timer**: where the Python source code for the timer lives
