@@ -1,0 +1,210 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin:none;
+    padding:none;
+}
+body
+{
+    margin:none;
+    padding:none;
+    background-image: linear-gradient(#0d090a 60%, #013da5);
+    background-repeat: none;
+    background-attachment: fixed;
+}
+#navlogo 
+{
+    width:100px;
+}
+a
+{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color:white;
+}
+nav ul 
+{
+    list-style-type: none;
+}
+.navbar nav ul
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar
+{
+    background-color:#0d090a;
+    margin:none;
+    padding:none;
+
+}
+h1
+{
+    color:white;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 70px;
+
+}
+h2
+{
+    color:white;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 40px;
+}
+
+p
+{
+    color:white;
+    font-family: 'Nunito', sans-serif;
+}
+.intro-heading
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#heading1
+{
+    display:flex;
+    flex-direction: row;
+    padding-right:20%;
+    padding-bottom: none;
+    justify-content: flex-start;
+}
+#heading2
+{
+    display:flex;
+    flex-direction: row;
+    padding-left:20%;
+    justify-content: flex-end;
+}
+#heading3
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* do not change any of the above please */
+/*joinus-discord-instagram-icons*/
+
+
+
+/*CARD FOR MEET THE TEAM PAGE*/
+.contact-card {
+    text-align: center;
+    padding: 20px;
+    width: 200px;  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #013da5;
+}
+
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+  
+.info h3 {
+    margin: 0;
+    color: white;
+}
+
+.title-section {
+    text-align: center;
+}
+
+.body-section {
+    text-align: center;
+}
+
+.social-icons a:hover {
+    color: #0096cc;
+}
+
+.social-icons a {
+    display: inline-block; /* Make links inline-block */
+    transition: all 0.5s ease-in-out infinite;
+    transition: all 0.6s;
+    color: white;
+    margin-right: 20px;
+}
+
+.social-icons a:hover {
+    color: #0096cc;
+    transform: translateY(-5px); /* Move up */
+    transition: all 0.5s ease-in-out infinite;
+}
+  
+.social-icons a:hover i {
+    animation: bounce 1s ease-in-out infinite; /* Bounce animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0); 
+}
+    
+    40% {
+      transform: translateY(-5px);
+}
+
+80% {
+    transform: translateY(-5px);  
+}
+}
+
+/*code for join us page*/
+.member-section {
+    color: white;
+    padding-left: 20px;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.member-section h2 {
+    text-align: left;
+    margin-bottom: -20px;
+    margin-top: -5px;
+}
+
+.member-section h4 {
+    font-size: 24px;
+    padding-left: 20px;
+    margin-bottom: -5px;
+}
+
+.member-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.member-section ul {
+    padding-left: 50px;
+}
+
+.member-section a {
+    font-size: 16px;
+}
+.main-mission
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width:90ch;
+    padding:none;
+    margin:none;
+}
+.mission-row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
