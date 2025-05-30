@@ -1,7 +1,8 @@
-# ---
+---
 # Highlander-Combat-Robotics-UCR
+![Alt text](Archive/BlackHCRLogo.png)
 The new repo for anything code and stuffs related
-# ---
+
 ## Welcome to Highlander Combat Robotics!
 This repo, like the name said, is to do the job of housekeeping all the software and code related stuffs related to the project
 There will be some folders existing, as you may notice. They are:
