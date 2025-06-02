@@ -3,6 +3,11 @@
 The power supply for the light is... missing somewhere. Because v1.3 is powered with a USB dongle, please take care not to set maximum brightness. The Arduino will die of overcurrent and stuff in an errornous state, which is tricky to fix (you have to quickly upload new code before the damn thing freeze again)
 
 ## Changelog
+### 1.3.1 - Hotfix
+**Changes**:
+* The old board is burnt (after plugging 11 V). New board is used (Arduino Uno R4 WiFi)
+* The input reader broke. For some reason, reading it into serial first make it works 
+
 ### 1.3 - New functional version
 **Usage**:
 * Plug it in your computer, and turn on ArduinoIDE
